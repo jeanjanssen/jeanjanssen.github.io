@@ -232,8 +232,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Spelthan]
-  first_name: [Remco]
+  last_name: [Janssen]
+  first_name: [Jean]
 
   style: apa
   locale: en
