@@ -16,6 +16,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hallo Jean is hier
 I am a M.Sc. student in Artificial Intelligence at [Maastricht University](https://www.maastrichtuniversity.nl/education/partner-program-master/artificial-intelligence). Before starting my master's, I obtained my BSc in Data Science and Artificial Intelligence
 at the same university. During my bachelor's, I worked on applied research in Symbolic Regression combined with Genetic Algorithms on pension fund administration
 data as an AI research intern at [APG](https://apg.nl/en/).
