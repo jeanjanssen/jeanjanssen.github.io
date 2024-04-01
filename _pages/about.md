@@ -2,29 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a>Affiliations</a>. Maastricht University, APG.
+subtitle: <a>Affiliations</a>. Maastricht University.
 
 profile:
   align: right
-  image:
+  image: pfp_jean_cropped.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Kerkrade, The Netherlands</p>
+    <p>Maastricht, The Netherlands</p>
     
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hallo Jean is hier
-I am a M.Sc. student in Artificial Intelligence at [Maastricht University](https://www.maastrichtuniversity.nl/education/partner-program-master/artificial-intelligence). Before starting my master's, I obtained my BSc in Data Science and Artificial Intelligence
-at the same university. During my bachelor's, I worked on applied research in Symbolic Regression combined with Genetic Algorithms on pension fund administration
-data as an AI research intern at [APG](https://apg.nl/en/).
+Hello and welcome to my website! My name is Jean Janssen, and I am currently pursuing a Master of Science degree in Artificial Intelligence at [Maastricht University](https://www.maastrichtuniversity.nl/education/partner-program-master/artificial-intelligence). Before starting on my graduate studies, I successfully completed a Bachelor of Science program in Data Science and Artificial Intelligence at the aforementioned institution. During my bachelor's, I performed research on modelling insulin regulation via PID control and estimated personalized computational models of an individual's glucose insulin-regulation using the least squares parameter estimation technique.
 
-Currently, I am a Physics | Data Science research intern at [ASML](https://www.asml.com/en), where I use Computer Vision methods such as Instance Segmentation to identify certain types of stains.
-My academic interests lie in Machine Learning and Artificial Intelligence, where my current focus lies on Computer Vision. Further details can be found on the projects page, where you can find reports of previous projects I worked on.
+Outside of my studies, I currently work as a shift leader at Albert Heijn Jan Linders. Through this role, I have gained leadership skills that I can apply in different professional domains.
 
-In my personal time, I enjoy playing piano, guitar, and bass guitar.
+My academic interests lie in Machine Learning and Artificial Intelligence, where I currently work with omics data. Further details can be found on the projects page, where you can find the reports made during various project throughout my academic career.
+
+In my personal time, I enjoy playing football and perform voluntary work to support the local club.
 
 [//]: # (Write your biography here. Tell the world about yourself. Link to your favorite [subreddit]&#40;http://reddit.com&#41;. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.)
 

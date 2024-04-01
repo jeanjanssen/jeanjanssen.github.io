@@ -2,17 +2,15 @@
   type: map
   contents:
     - name: Full Name
-      value: Remco Spelthan
-    - name: Title
-      value: Data Scientist
+      value: Jean William Petronella Marie Janssen
     - name: Date of Birth
-      value: 30th January 2001
+      value: 9 December 2000
     - name: Languages
       value: English (C2), Dutch (C2)
     - name: Programming Languages
-      value: Python, Java, C++, MATLAB, C, SQL
+      value: Python, Java, MATLAB, Julia
     - name: Tools
-      value: PyTorch, TensorFlow, DEAP, NumPy, Qiskit, Pandas, Matplotlib
+      value: PyTorch, TensorFlow, NumPy, Pandas, Matplotlib
 
 
 - title: Education
@@ -20,7 +18,7 @@
   contents:
     - title: M.Sc. in Artificial Intelligence
       institution: Maastricht University, Netherlands
-      year: SEP 2022 - PRESENT
+      year: FEB 20233 - PRESENT
       description:
         - title: Current Courses
           contents:
@@ -28,58 +26,43 @@
             - Foundations of Agents
             - Advanced Concepts in Machine Learning
             - Deep Learning for Image and Video Processing
+            - Autonomous Robotic Systems
+            - Planning and Scheduling
+            - Information Retrieval and Text Mining
+            - Computer Vision
     - title: B.Sc. in Data Science and Artificial Intelligence
       institution: Maastricht University, Netherlands
-      year: SEP 2019 - JUL 2022
+      year: SEP 2019 - FEB 2023
       description:
-        - Graduated with Honours, 7.67/10 GPA
-        - Rewarded 8.5/10 for bachelor thesis "CODA With Symbolic Regression"
-        - Participated in the DSAI Honours Programme KE@Work, rewarded 8.5/10
+        - Graduated with Honours, 7.12/10 GPA
+        - Rewarded 8.0/10 for bachelor thesis "Analysing Glucose Regulation In Silico; Modeling Insulin Secretion Via PID Control"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Physics | Data Science Intern
-      institution: ASML, The Netherlands
-      year: SEP 2023 - PRESENT
+    - title: Shift leader
+      institution: Albert Heijn Jan Linders, The Netherlands
+      year: MAY 2020 - PRESENT
       description:
-        - Researching different Computer Vision methods for stain identification on collector mirrors
-    - title: Data Scientist
-      institution: APG, The Netherlands
-      year: AUG 2022 - AUG 2023
-      description:
-        - <b>Competences:</b> Python, DEAP, Symbolic Regression, Genetic Programming.
-        - title: Achievements
-          contents:
-            - Developed Symbolic Regression method that uses Genetic Programming to find functions for data clusters
-            - Successfully integrated Symbolic Regression program in company product.
+        - Gained leadership skills and cooperation skills.
     - title: Data Science Intern
-      institution: APG, The Netherlands
-      year: FEB 2021 - JUL 2022
+      institution: MaCSBio, The Netherlands
+      year: SEP 2022 - DEC 2022
       description:
-        - Did research into different methods that could provide an advantage in checking correctness of data cluster formulas
-        - Started working on a Symbolic Regression method that uses Genetic Programming.
-
-
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: FEB 2021 - AUG 2022
-      items: 
-        - Participation in the KE@Work honours programme, a part-time research internship in industry
+        - Successfully implemented PID control to model insulin secretion in a physiology based computational model in the Julia Programming Language
+        - Successfully determined changes ininsulin glucose regulation of individuals after dietary intervention
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Classical Machine Learning.
       items:
-        - Semantic & Instance Segmentation.
-        - Object Detection.
-        - Symbolic Regression.
+        - Object Detection & Severity Detection.
+        - Signal Processing.
         - Genetic Programming.
+        - Bioinformatics.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Music, piano, guitar, bass guitar
+    - <u>Hobbies:</u> Football, strategy games.

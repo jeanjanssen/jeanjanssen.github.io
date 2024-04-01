@@ -3,40 +3,38 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{spelthan2022coda,
+@article{janssen2022thesis,
   abbr={ArXiv},
-  title={CODA With Symbolic Regression},
-  author={Spelthan, R.},
-  abstract={APG uses CODA to validate whether every mutation of a client's pension is calculated correctly. Currently, this is being done by linear regression, but this requires domain knowledge and pre-processing, and doesn't explain all mutations. In this report a Genetic Algorithm with Symbolic Regression is introduced, with the aim to explain certain groups as well as, or better than the linear regression method CODA currently uses. To explain the mutations, additional methods such as LASSO and Variable Switch were introduced. The Genetic Algorithm is shown to be an effective method to combine input variables and explain mutations. Future research should be done towards to further increase the explanation rate and decrease run time.},
-  year={2022},
-  month={July},
-  pdf={bsc_thesis.pdf},
-  selected={true},
-  preview={bsc_thesis.png}
-}
-@article{spelthan2022imageclass,
-  abbr={ArXiv},
-  title={Image Classification on Histopathological Colon
-and Lung Cancer data},
-  author={Spelthan, R.},
-  abstract={In this paper, we present a study on image classification of histopathological colon and lung cancer images. Using a dataset of these images, we trained 4 state-of-the-art image classification models, 2 simple CNN architectures, 2 Transformer models and 4 Hybrid Quantum Convolutional Neural Network models. We evaluated the performance using various metrics, including cross entropy loss, accuracy, precision and F1 score. We further try to give insight to why certain models choose classify the image with or without cancer, we did this using saliency maps, integrated gradients and integrated gradients with smoothgrad squared. Our results show that ResNet18 is the best performing image classification model, that there is a potential to using Hybrid Quantum Convolutional Neural Networks, and that models that correctly classify images have a more specific focus in images than models that incorrectly classify images.},
+  title={Analysing glucose regulation in silico: Modeling insulin secretion via PID control},
+  author={Janssen, J.},
+  abstract={Blood glucose levels in the human body are maintained through a network of various hormones and peptides that regulate complex mechanisms including the secretion of insulin and the disposal of glucose to muscle tissue. In this thesis, we explore PID control to model insulin secretion in a physiology-based computational model in the Julia Programming Language. Furthermore, we explore the possibility of estimating digital twins (personalized computational models) of an individual's glucose insulin-regulation using the least squares parameter estimation technique in the Julia Programming language.},
   year={2022},
   month={December},
-  pdf={Image_Classification_on_Histopathological_Colon_and_Lung_cancer_data.pdf},
+  pdf={Jean_Janssen_2022.pdf},
   selected={true},
-  preview={pasto.png}
+  preview={bscthesis.png}
+}
+@article{janssen2023rp,
+  abbr={ArXiv},
+  title={Exploring Audio Data with Recurrence Plots: Beta-Divergence, Visualisation Techniques, and Computational Methods},
+  author={Janssen, J. and Kotala, S. and Khan, M. and Tanim, A.},
+  abstract={Visualizations are often more comprehensible and user-friendly than raw data, making them a preferred method of interpretation for many individuals. Repetition of a specific event is a very common scenario in practical systems. By applying RPs, we can easily generate an intuitive visualization that helps to identify the recurrences or repetition of dynamical systems. These recurrences show up as lines or artifacts (single block not forming a line) in visualization as seen in Figure 1. In the context of stuttering analysis, we aim to employ visual tools to identify instances of recurrence in speech and to distinguish between stuttered and fluent speech based on visual characteristics.},
+  year={2023},
+  month={June},
+  pdf={MAI_Project_2_1_Final_Report.pdf},
+  selected={true},
+  preview={simplerp.png}
 }
 
 
 @article{spelthan2023Quantum,
   abbr={ArXiv},
-  title={Quantum One-Class Classification},
-  author={Spelthan, R.},
-  abstract={In this paper, we propose and evaluate three different quantum one-class classification (QOCC) algorithms for anomaly detection and outlier detection. The first algorithm is an One-Class Support Vector Machine (OC-SVM) with enhanced feature spaces using a ZZFeatureMap, the second algorithm is a Variational quantum one-class classifier, and the third algorithm is a normal Variational quantum circuit.
-We evaluate the performance of the algorithms using the evaluation metric Macro F1-score, since this gives us the best balance between correctly identifying outliers and inliers. We also compare the results with the classical one-class classification methods to highlight the advantages of the proposed quantum one-class classification methods. Our results show that the proposed QOCC algorithms achieve a slight improvement in performance over the classical methods in specific datasets, but generally seems to perform as well or worse than classical methods. We also discuss the current challenges and open problems and identify potential directions for future research.},
+  title={Detection and Severity Classification on Knee Osteoarthritis X-ray Images},
+  author={Janssen, J.},
+  abstract={This paper addresses the challenges in diagnosing and classifying knee osteoarthritis (KOA) severity using traditional methods. Using machine learning and Convolutional Neural Networks (CNNs), specifically MobileNetV2 and a simple CNN structure, consisting of the concatenation of convolutional and pooling layers called SimpleCNN, the study utilizes a three-stage approach involving data splitting, model training, and classification. The proposed methods demonstrate  a maximum F1 score of 0.8468 for the use of a pretrained MobileNetV2 in comparison to a MobileNetV2 without pretrained weights and SimpleCNN where an F1 score of 0.7516 was yielded. The research conducts the potential of CNNs without pretrained weights, for automated KOA diagnosis and severity classification, offering valuable insights for further exploration in this domain.},
   year={2023},
-  month={January},
-  pdf={Quantum_One_Class_Classification.pdf},
+  month={December},
+  pdf={Janssen_Report.pdf},
   selected={true},
-  preview={ZZFeatureMap.png}
+  preview={9001400L.png}
 }
